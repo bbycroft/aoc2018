@@ -99,5 +99,6 @@ let main argv =
     // day1 ()
     // day2 ()
     // day3 ()
-    Day4.day4 ()
+    // Day4.run ()
+    Day5.run ()
     0

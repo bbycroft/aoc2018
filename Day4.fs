@@ -57,7 +57,7 @@ let calcGuardCost (guard: int option, rot: GuardRotation list) =
     let (bestMinute, timeAsleep) = minutes |> Array.mapi (fun i a -> (i, a)) |> Array.maxBy (fun (i, a) -> a)
     (guard, totalMinutes, bestMinute, timeAsleep)
 
-let day4 () =
+let run () =
     printfn "Day 4:"
     let vs = Util.readLines "day4.input" |> List.sort
     let actions = List.map parseLine vs
