@@ -93,11 +93,11 @@ let day3 () =
     let region = List.find (regionWithOverlap size fabric) vs
     printfn "#%s" region.id
 
-
 [<EntryPoint>]
 let main argv =
     printfn "Executing main"
-    day1 ()
-    day2 ()
-    day3 ()
+    // day1 ()
+    // day2 ()
+    // day3 ()
+    Day4.day4 ()
     0
